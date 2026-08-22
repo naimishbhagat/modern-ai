@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 client = genai.Client(
-    api_key="",
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 
